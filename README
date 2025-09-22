@@ -1,0 +1,5 @@
+This repository includes a completed python implementation of Asaad et al 's method to compute qnms of kerr spacetime. 
+The fundamental mode can be easily retrieved to a float point accuracy and the subsequent modes can be too (depending on the rotation of the black hole, the amount of subsequent modes will vary).
+Filtering is applied to the spectrum to make sure numerical noise can be minimised.
+Future work will focus on implementation of mp.math for improved numerical accuracy and improved filtering. 
+The qnm calculator is written in the radial fixing gauge, but parameters for cauchy gauge are provied too as comments at the end.
